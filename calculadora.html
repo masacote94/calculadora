@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>claculadora casio basica</title>
+    <link rel="stylesheet" href="estiloscalculadora.css">
+</head>
+
+<body>
+    <header>
+        <h1>CALCULADORA BASICA</h1>
+    </header>
+    <div class="plastic">
+        <header>
+            <section>
+                <h3>CASIO</h3>
+                <h4>electronic calculator<br>HL-820VA </h4>
+            </section>
+        </header>
+        <div class="prepantalla">
+            <div class="pantalla">
+                <span class="num" id="resultado"></span>
+            </div>
+        </div>
+        <div class="teclado" id="mrc">
+            <button class="a" onclick="memoria()">MRC</button>
+            <button class="a" id="m-" onclick="memoriaMenos()">M-</button>
+            <button class="a" id="m+" onclick="memoriaMas()">M+</button>
+            <button class="a" id="raiz" onclick="raiz()">√</button>
+            <button class="a" id="off">OFF</button>
+            <p class="b">ON</p>
+            <button class="c" id="ac" onclick="reset()">AC</button>
+            <button class="c" id="c" onclick="reset2()">C</button>
+            <button class="d" id="%" onclick="porsentaje()">%</button>
+            <button class="d" id="/" onclick="divicion()">/</button>
+            <button class="d" id="7" onclick="siete()">7</button>
+            <button class="d" id="8" onclick="ocho()">8</button>
+            <button class="d" id="9" onclick="nueve()">9</button>
+            <button class="d" id="x" onclick="multiplicacion()">X</button>
+            <button class="d" id="4" onclick="cuatro()">4</button>
+            <button class="d" id="5" onclick="cinco()">5</button>
+            <button class="d" id="6" onclick="seis()">6</button>
+            <button class="d" id="-" onclick="resta()">-</button>
+            <button class="d" id="uno" onclick="uno()">1</button>
+            <button class="d" id="2" onclick="dos()">2</button>
+            <button class="d" id="3" onclick="tres()">3</button>
+            <button class="e" id="+" onclick="suma()">+</button>
+            <button class="d" id="0" onclick="cero()">0</button>
+            <button class="d" id="." onclick="punto()">.</button>
+            <button class="d" id="=" onclick="igual()">=</button>
+        </div>
+    </div>
+    <div class="plastic">
+        <div class="prepantalla2">
+            <div class="pantalla2">
+                <span class="num" id="resultadoMemoria"></span>
+            </div>
+            <div class="pantalla3">
+                <span class="num" id="resultdo"></span>
+            </div>
+
+        </div>
+    </div>
+    <script src="funcioncalculadora.js" language="javascript" type="text/javascript"></script>
+</body>
+
+</html>
