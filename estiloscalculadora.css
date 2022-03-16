@@ -29,6 +29,7 @@ h1 {
     box-shadow: inset 10px 10px 19px 0px rgba(0, 0, 0, 0.35);
     box-shadow: inset 0px 0px 26px 9px rgba(0, 0, 0, 0.35);
     margin: 30px;
+    
 }
 
 h3 {
@@ -183,4 +184,11 @@ table {
     float: right;
     font-family: jorge;
     margin-right: 6px;
+}
+
+.calcula {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
